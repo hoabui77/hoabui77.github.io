@@ -3,51 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nhịp Sống Tích Cực | Sếp Hòa</title>
+    <title>Nghệ Thuật & Tư Duy Sống | Sếp Hòa</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
-            color: #333;
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            color: #2c3e50;
             text-align: center;
             padding: 10% 5%;
             margin: 0;
+            min-height: 100vh;
         }
         .container {
-            background-color: white;
+            background-color: rgba(255, 255, 255, 0.9);
             padding: 50px 40px;
-            border-radius: 20px;
-            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
-            max-width: 650px;
+            border-radius: 25px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+            max-width: 700px;
             margin: auto;
-            transition: transform 0.3s ease;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            backdrop-filter: blur(10px);
         }
         .container:hover {
-            transform: translateY(-5px);
+            transform: translateY(-10px);
+            box-shadow: 0 30px 50px rgba(0,0,0,0.3);
         }
         h1 {
-            color: #ff6b6b;
-            font-size: 2.8em;
+            color: #e74c3c;
+            font-size: 3em;
             margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
         }
         p {
-            font-size: 1.3em;
+            font-size: 1.4em;
             line-height: 1.8;
-            color: #555;
+            color: #34495e;
+            font-weight: 500;
+        }
+        .highlight {
+            color: #2980b9;
+            font-weight: bold;
         }
         .footer {
             margin-top: 40px;
             font-style: italic;
-            color: #888;
-            font-size: 1.1em;
+            color: #7f8c8d;
+            font-size: 1.2em;
             font-weight: bold;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Nghệ Thuật & Tư Duy Sống</h1>
-        <p>"Mỗi ngày là một tuyệt tác nếu ta biết tô điểm nó bằng sự tử tế, nụ cười và lòng biết ơn. Hãy cùng nhau kiến tạo một cuộc đời rực rỡ và tràn đầy cảm hứng!"</p>
+        <h1>Nhịp Sống Tích Cực</h1>
+        <p>"Cuộc đời là một <span class="highlight">tuyệt tác</span> nghệ thuật. Hãy dùng sự tử tế, tình yêu thương và tư duy tích cực làm những gam màu rực rỡ nhất để vẽ nên bức tranh của chính mình mỗi ngày."</p>
         <div class="footer">- Sếp Hòa Đồng -</div>
     </div>
 </body>
